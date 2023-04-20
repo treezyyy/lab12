@@ -3,8 +3,8 @@ import java.util.regex.*;
 
 public class Main {
     public static void main(String[] args) {
-        String s = "ggg240.7.97.185kkkkkk";
-        String f = "Это IP адрес 206.157.141.44 kkkkkk";
+        String s = "240.7.97.185kkkkkk";
+        String f = "Это тоже IP адрес 206.157.141.44 kkkkkk";
         System.out.println(True_IP(s));
         System.out.println(True_IP(f));
     }
